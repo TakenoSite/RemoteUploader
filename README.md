@@ -5,6 +5,21 @@ Upload to a specific web server and run remotely
 
 # Module
 
-RemoteUploader.ServerModule()
+1: RemoteUploader.ServerModule()
 
-RemoteUploader.UploadModule()
+        lport:int, # Pleass 0x01 ~ 0xff in range  
+        lhost:str, # Your IP address 
+        Path:str   # File path
+
+
+2: RemoteUploader.UploadModule()
+
+        lhost:str,       # Local IP or Global IP
+        lport:int,       # Download server port
+        rhost:list,      # Target rhost in list only 
+        rport:int,       # Target port
+        ThreadNum=1,     # Thread enabled for multiple targets
+        execution=False, # True if it is an executable 
+        delete=False,    # Delete files after execution
+        Tor=False        # Tor Netwoek 
+        
