@@ -5,8 +5,8 @@ Upload to a specific web server and run remotely
 # Details of this vulnerable
         
 1: check()
-        rhosts={target_host}
-        rports={target_port}
+        rhosts={target_host} # Target host
+        rports={target_port} # Target port
                 
 https://github.com/TakenoSite/Simple-CVE-2021-36260
        
