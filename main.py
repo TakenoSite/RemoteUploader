@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """
 CVE-2021-36260 in os command injection 
 
