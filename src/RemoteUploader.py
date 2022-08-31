@@ -125,14 +125,6 @@ class EXPLOIT:
         pass
     
 
-     
-    def exploit_generate(self, payloads:list):
-        
-        for _32bitcode in payloads:
-            print(_32bitcode)
-
-        pass 
-
     def explot_v1(self, payloads:list,payload2:list, rhost:str, rport:int, execution:bool, delete:bool): # check Point 
         
         session = requests.Session()
