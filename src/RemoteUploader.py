@@ -366,7 +366,7 @@ def Upload(rhost:str,rport:int,payload:list,ThreadNum:int, Tor:bool, execution:b
 
 def ReadFile(filePath:str) -> list: 
     read_host = []
-    with open(path,"r") as  f:
+    with open(filePath,"r") as  f:
         for j in f:
             read_host.append(j.split("\n")[0])
         f.close()
