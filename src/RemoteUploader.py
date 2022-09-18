@@ -154,7 +154,7 @@ class EXPLOIT:
                     break
                 except:
                     lossCount += 1
-                    print("\033[33m [*] Try.{loss} === {send_to}/{send_total} : {status} {host}".format(loss =lossCount ,send_to = LineCount, send_total = PayloadLineNum, status= send_to, host= rhost))
+                    print("\033[33m [*] Try.{loss} === {send_to}/{send_total} : {status} {host}".format(loss =lossCount ,send_to = LineCount, send_total = PayloadLineNum, status= 0, host= rhost))
 
                     if lossCount == 10: # try 
 
