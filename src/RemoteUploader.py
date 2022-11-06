@@ -4,8 +4,6 @@ CVE-2021-36260 in os command injection
 
 1: You can upload files to a specific web server.
 2: Arm architecture only 
-3: TakenoSite shall not be responsible or liable for any damages whatsoever resulting from the use of this program.
-
 @ TakenoSite
 """
 
